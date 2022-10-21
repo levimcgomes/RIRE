@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIRE", "RIRE\RIRE.csproj", "{44D6F8FD-957F-49B3-A02F-914E88676370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIRETest", "RIRETest\RIRETest.csproj", "{5104C65E-CF9C-4000-AFB9-38E596FE570C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44D6F8FD-957F-49B3-A02F-914E88676370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D6F8FD-957F-49B3-A02F-914E88676370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D6F8FD-957F-49B3-A02F-914E88676370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D6F8FD-957F-49B3-A02F-914E88676370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DCB80E8-2341-41AE-B2AE-6C944AB8AB9F}
+	EndGlobalSection
+EndGlobal
