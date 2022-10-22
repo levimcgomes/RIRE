@@ -1,20 +1,19 @@
 ﻿namespace RIRE
 {
-    public class Color
+    public readonly struct Color
     {
-        private float[] rgb;
+        private readonly float _r;
+        private readonly float _g;
+        private readonly float _b;
 
-        public float this[int index] {
-            get => rgb[index];
-            set => rgb[index] = value;
-        }
-
-        public Color(float[] rgb) {
-            this.rgb = rgb;
-        }
+        public float r => _r;
+        public float g => _g;
+        public float b => _b;
 
         public Color(float r = 0, float g = 0, float b = 0) {
-            this.rgb = new float[] { r, g, b };
+            this._r = r;
+            this._g = g;
+            this._b = b;
         }
     }
 }
