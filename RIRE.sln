@@ -5,15 +5,15 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RIRE", "RIRE\RIRE.csproj", "{44D6F8FD-957F-49B3-A02F-914E88676370}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RIRETest", "RIRETest\RIRETest.csproj", "{5104C65E-CF9C-4000-AFB9-38E596FE570C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1CC0C869-8A3E-4073-9999-4F9CFA4DD689}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		CONTRIBUTING.md = CONTRIBUTING.md
-		README.md = README.md
 		LICENSE.md = LICENSE.md
+		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RIRETest", "RIRETest\RIRETest.csproj", "{4CE28FBC-66C0-4B43-B67E-8B54BC0EAF3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{44D6F8FD-957F-49B3-A02F-914E88676370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44D6F8FD-957F-49B3-A02F-914E88676370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44D6F8FD-957F-49B3-A02F-914E88676370}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5104C65E-CF9C-4000-AFB9-38E596FE570C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE28FBC-66C0-4B43-B67E-8B54BC0EAF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE28FBC-66C0-4B43-B67E-8B54BC0EAF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE28FBC-66C0-4B43-B67E-8B54BC0EAF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE28FBC-66C0-4B43-B67E-8B54BC0EAF3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
