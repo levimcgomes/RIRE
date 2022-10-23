@@ -1,7 +1,7 @@
-﻿<Application x:Class="RIRETest.App"
+﻿<Application x:Class="RIRETest_Graphic.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RIRETest"
+             xmlns:local="clr-namespace:RIRETest_Graphic"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

@@ -1,18 +1,13 @@
-﻿<Window x:Class="RIRETest.MainWindow"
+﻿<Window x:Class="RIRETest_Graphic.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RIRETest"
+        xmlns:local="clr-namespace:RIRETest_Graphic"
+        d:DataContext="{d:DesignInstance Type=local:MainWindow}"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="80*" />
-            <RowDefinition Height="5" />
-            <RowDefinition Height="20*" />
-        </Grid.RowDefinitions>
-
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="70*" />
             <ColumnDefinition Width="5" />
@@ -21,17 +16,14 @@
 
         <!-- Upper-left: should be an image -->
         <!--<TextBox Grid.Row="0" Grid.Column="0" Background="Gray" />-->
-        <Image Grid.Row="0" Grid.Column="0" Source=""/>
+        <Image Grid.Column="0" Source="{Binding WriteableBitmap}"/>
 
         <!-- Upper-Right -->
-        <TextBox Grid.Row="0" Grid.Column="2" />
+        <TextBox Grid.Column="2" Name="CodeArea" />
 
-        <!-- Bottom -->
-        <TextBox Grid.Row="2" Grid.ColumnSpan="3" />
 
         <!-- Splitters -->
         <GridSplitter Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" />
-        <GridSplitter Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" />
 
     </Grid>
 </Window>
